@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "author": "Omkar N",
+  "main": "server.js",
+  "name": "sei-compliancy-inspector",
+  "description": "Compliancy inspector",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsdom": "^25.0.1",
+    "openai": "^4.76.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsdom": "^21.1.7",
+    "typescript": "^5.7.2"
+  }
+}
