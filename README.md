@@ -25,6 +25,7 @@ yarn start
 
 #### Test URL
 
+```
 POST http://localhost:3000/check-compliance
 Request Body:
 {
@@ -36,3 +37,4 @@ Response Body:
 On Success Example: {findings: []}
 On Fail Example: {error: "An error occurred while checking compliance."}
 Validation Error Example: {error: "Mandatory fields missing"}
+```
