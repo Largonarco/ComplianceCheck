@@ -12,7 +12,13 @@ To build a compliancy inspector given a url for policy guidelines and another we
 #### Steps to run
 
 ```
-npm install OR yarn add
-npm run compile OR yarn compile
-npm run start OR yarn start
+npm install
+npm run compile
+npm run start
+
+OR
+
+yarn add
+yarn compile
+yarn start
 ```
