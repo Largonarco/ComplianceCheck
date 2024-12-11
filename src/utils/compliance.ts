@@ -18,6 +18,7 @@ const checkCompliance = async (
     ],
   });
 
+  // Extract non-empty lines from the response and returns findings
   return (
     response.choices[0]?.message?.content?.split("\n").filter((line) => line.trim() !== "") || []
   );

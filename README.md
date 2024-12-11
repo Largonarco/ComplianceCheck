@@ -22,3 +22,9 @@ yarn
 yarn compile
 yarn start
 ```
+
+#### Test URL
+
+URL: http://localhost:3000/check-compliance
+Method: POST
+Request Body: webpageUrl (string) and policyUrl (string)
