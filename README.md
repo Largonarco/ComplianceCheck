@@ -25,6 +25,14 @@ yarn start
 
 #### Test URL
 
-URL: http://localhost:3000/check-compliance
-Method: POST
-Request Body: webpageUrl (string) and policyUrl (string)
+POST http://localhost:3000/check-compliance
+Request Body:
+{
+"webpageUrl": "https://example.com/",
+"policyUrl": "https://example.com/policy/"
+}
+
+Response Body:
+On Success Example: {findings: []}
+On Fail Example: {error: "An error occurred while checking compliance."}
+Validation Error Example: {error: "Mandatory fields missing"}
