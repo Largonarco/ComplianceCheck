@@ -18,7 +18,7 @@ npm run start
 
 OR
 
-yarn add
+yarn
 yarn compile
 yarn start
 ```
