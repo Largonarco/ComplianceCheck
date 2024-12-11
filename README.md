@@ -1,6 +1,8 @@
 ## Sei Assignment
 
-#### Task: To build a compliancy inspector given a url for policy guidelines and another webpage url
+#### Task
+
+To build a compliancy inspector given a url for policy guidelines and another webpage url
 
 #### Structure
 
