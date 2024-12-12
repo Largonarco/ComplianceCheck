@@ -43,9 +43,9 @@ Note: Ensure that the analysis is precise, accurate, and does not include any ha
   });
 
   // Extract non-empty lines from the response and returns findings
-  return (
-    response.choices[0]?.message?.content?.split("\n").filter((line) => line.trim() !== "") || []
-  );
+  return response.choices[0]?.message?.content === "Found nothing"
+    ? []
+    : response.choices[0]?.message?.content?.split("\n").filter((line) => line.trim() !== "") || [];
 };
 
 // Extracts only relevant text
